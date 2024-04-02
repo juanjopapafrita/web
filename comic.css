@@ -1,0 +1,285 @@
+
+
+body {
+    background-color: #f2b705;
+  }
+  
+  
+  .navbar {
+    background-color: #477955;
+    height: 80px;
+  }
+  
+  .navbar-brand img {
+    width: 40px; /* Aumentar el ancho del icono de la casa */
+    height: 32px; /* Aumentar la altura del icono de la casa */
+    color: aliceblue !important;
+  }
+
+  .icon-white {
+    fill: white;
+  }
+  
+
+  .navbar {
+    background-color: #477955 !important; /* Barra de navegación amarilla */
+    height: 80px; /* Altura aumentada de la barra de navegación */
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .iconologo {
+    width: 15%; /* Ajusta el ancho según tus necesidades */
+    height: 7%; /* Ajusta la altura según tus necesidades */
+  }
+  
+  .navbar-brand img {
+    width: 30px; /* Ancho del icono de la casa */
+    height: 24px; /* Altura del icono de la casa */
+    margin-right: 10px; /* Espaciado a la derecha del icono de la casa */
+color: aliceblue;
+  }
+
+.tutorial{
+background-color: rgb(244, 248, 7);
+width: 20%;
+height: 45%;
+margin-top: 10% ;
+position: absolute;
+margin-left: 5%;
+padding: 1%;
+}
+
+.qrinstagram{
+background-color: rgb(244, 248, 7);
+width: 20%;
+height: 45%;
+margin-top: 10% ;
+margin-left: 75%;
+position: absolute;
+padding: 1%;
+}
+
+.qr-instagram{
+width: 230px;
+height: 230px;
+position: absolute;
+margin-left: 1%;
+}
+
+.tituloqr{
+margin-top: 98%;
+}
+
+  .container-carousel {
+    max-width: 800px; /* Ancho máximo del contenedor del carrusel */
+    margin-top: 20px; /* Separación desde la barra de navegación */
+  }
+  
+#carouselExample{
+  margin-top: 150px;
+}
+
+  .carousel-inner {
+    background-color:#477955; /* Fondo amarillo para el carrusel */
+    margin-top: 20px; /* Separación adicional desde la barra de navegación */
+  }
+  
+  .carousel-item img {
+    max-width: 100%; /* Imágenes dentro del carrusel con ancho máximo del 100% */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+.textos{
+  color: aliceblue;
+}  
+
+
+
+  #carouselExample {
+    margin-top: 150px;
+    max-width: 800px; /* Ancho máximo del carrusel */
+    margin: 0 auto; /* Centrar el carrusel en la página */
+  }
+  
+  .carousel-inner {
+    background-color:#477955; /* Fondo amarillo para el carrusel */
+    margin-top: 20px; /* Separación adicional desde la barra de navegación */
+    max-height: 500px; /* Altura máxima del carrusel */
+    overflow: hidden; /* Ocultar contenido que se desborda */
+  }
+  
+  .carousel-item {
+    text-align: center; /* Centrar el texto dentro de los elementos del carrusel */
+    padding: 20px; /* Espaciado interno para el contenido del carrusel */
+    height: 500px; /* Altura fija para los elementos del carrusel */
+  }
+  
+  .carousel-item img {
+    max-width: 100%; /* Imágenes dentro del carrusel con ancho máximo del 100% */
+    max-height: 100%; /* Altura máxima del 100% */
+    width: auto; /* Ancho automático para mantener la proporción */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+
+
+  .btn-custom {
+    color: black; /* Color del texto */
+    background-color: #ece636; /* Color de fondo */
+    border-color: #f2b705; /* Color del borde */
+  }
+
+  .capitulos a.btn {
+    background-color:#477955; /* Fondo amarillo para los botones de capítulos */
+    color: #f2b705; /* Texto morado para los botones de capítulos */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #f2b705; /* Color morado para los íconos de control del carrusel */
+  }
+  
+
+  .capitulos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .capitulo-thumbnail {
+    text-decoration: none;
+    color: #000; /* Color del texto para las miniaturas */
+    display: block;
+  }
+  
+  .capitulo-thumbnail img {
+    max-width: 100px; /* Ancho máximo de las miniaturas */
+    height: auto;
+  }
+
+
+  .carousel-item h4 {
+    color: aliceblue; /* Cambiar color del texto según tu preferencia */
+  }
+
+
+  /* ... (otros estilos) */
+
+
+.carousel-inner {
+    background-color: #477955; /* Fondo amarillo para el carrusel */
+    max-width: 600px; /* Tamaño máximo del carrusel */
+    margin: 0 auto; /* Centrar el carrusel en la página */
+  }
+  
+  .carousel-item img {
+    max-width: 100%; /* Imágenes dentro del carrusel con ancho máximo del 100% */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+
+  .carousel-item{
+  position: relative;
+  }
+  
+  /* ... (otros estilos) */
+  
+
+  .background{
+    position: relative;
+  }
+
+  .animacion{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+.oculto{
+display: none;
+}
+
+
+.circulo1{
+border-radius: 50px;
+border: 5px solid rgb(255, 23, 10);
+width: 60px;
+height: 60px;
+position: absolute;
+top: 140px;
+left: 95px;
+z-index: 1;
+ animation: heartbeat 1.5s ease-in-out infinite both;
+ cursor: pointer;
+  }
+
+  .circulo2{
+    border-radius: 50px;
+    border: 5px solid rgb(255, 23, 10);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 140px;
+    left: 95px;
+    z-index: 1;
+     animation: heartbeat 1.5s ease-in-out infinite both;
+     cursor: pointer;
+  }
+
+
+  .circulo3{
+    border-radius: 50px;
+    border: 5px solid rgb(255, 23, 10);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 140px;
+    left: 95px;
+    z-index: 1;
+     animation: heartbeat 1.5s ease-in-out infinite both;
+     cursor: pointer;
+  }
+
+
+  .circulo4{
+    border-radius: 50px;
+    border: 5px solid rgb(255, 23, 10);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 140px;
+    left: 95px;
+    z-index: 1;
+     animation: heartbeat 1.5s ease-in-out infinite both;
+     cursor: pointer;
+  }
+
+
+  @keyframes heartbeat {
+    from {
+              transform: scale(1);
+              transform-origin: center center;
+              animation-timing-function: ease-out;
+    }
+    10% {
+              transform: scale(0.91);
+              animation-timing-function: ease-in;
+    }
+    17% {
+              transform: scale(0.98);
+              animation-timing-function: ease-out;
+    }
+    33% {
+              transform: scale(0.87);
+              animation-timing-function: ease-in;
+    }
+    45% {
+     
+              transform: scale(1);
+ 
+              animation-timing-function: ease-out;
+    }
+  }
+  

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BOTANIK</title>
+  <link rel="stylesheet" href="/images/">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    body {
+      background-color: #477955;
+      /* Morado pastel */
+    }
+
+    .navbar-custom {
+      background-color: #ece636;
+    
+    }
+
+    .carousel {
+      margin-top: 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 32px;
+      margin-top: 40px;
+      color: #ffffff;
+    }
+
+    .section-box {
+      background-color: #f2b705;
+      /* Amarillo pastel */
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .info-box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #f2b705;
+      text-align: center;
+    }
+
+    .comic-button {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+.nav-item a {
+      color: black; /* Cambia 'red' al color que desees */
+      /* Otros estilos opcionales */
+      text-decoration: none; /* Elimina el subrayado del enlace */
+      font-weight: bold; /* Hace que el texto sea negrita */
+    }
+
+
+
+    .arrow {
+      display: block;
+      font-size: 32px;
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+      color: #f2b705;
+      /* Blanco */
+      cursor: pointer;
+      padding: 10px;
+    }
+  
+    .flecha-arriba{
+      display: block;
+      font-size: 60px;
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+      color: #f2b705;
+      /* Blanco */
+      cursor: pointer;
+      padding: 10px;
+    }
+
+    .flecha-arriba a {
+      color: #f2b705; /* Cambia 'blue' al color que desees */
+      text-decoration: none; /* Elimina el subrayado del enlace */
+    }
+
+    .comic-button .btn-primary {
+      background-color: #f2b705; /* Cambia 'green' al color que desees */
+      border-color: #f2b705; /* Cambia 'green' al color que desees */
+    }
+
+
+
+    .character-box {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .character-image {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .character-info {
+      margin-top: 10px;
+      background-color:#f2b705;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-color {
+      color: #ffffff;
+    }
+
+    .creator-box {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .creator-image {
+      max-width: 30%;
+      border-radius: 50%;
+    }
+
+    .creator-info {
+      margin-top: 10px;
+      background-color: #f2b705;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .footer {
+      background-color: #000;
+      /* Negro */
+      color: #fff;
+      /* Blanco */
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .footer-logo {
+      width: 50px;
+      /* Ajusta el tamaño del logo según tus necesidades */
+      height: auto;
+      margin-right: 10px;
+    }
+
+    .instagram-link {
+      color: #fff;
+      /* Blanco */
+      text-decoration: none;
+      margin-left: 10px;
+    }
+
+    /* Nueva configuración del carrusel */
+    #carouselExampleIndicators {
+      margin-top: 20px;
+    }
+
+    #carouselExampleIndicators .carousel-indicators {
+      bottom: 20px;
+    }
+
+    #carouselExampleIndicators .carousel-control-prev,
+    #carouselExampleIndicators .carousel-control-next {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+    }
+
+    #carouselExampleIndicators .carousel-control-prev-icon,
+    #carouselExampleIndicators .carousel-control-next-icon {
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-custom" id="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/images/SFH LOGO.jpg" alt="Logo del proyecto" width="100">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./comic.html">Ir al comic</a>
+            </li>
+          </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#personajes">Personajes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#creadores">Creadores</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- Nuevo carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div
+            style="background-image: url('/images/maxx-portada.jpg'); background-size: cover; background-position: center; height: 400px;">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            style="background-image: url('/images/lily-portada.jpg'); background-size: cover; background-position: center; height: 400px;">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            style="background-image: url('/images/orwell-portada.jpg'); background-size: cover; background-position: center; height: 400px;">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Fin del nuevo carrusel -->
+
+    <div class="comic-button">
+      <a href="./comic.html" class="btn btn-primary">Ir al comic</a>
+    </div>
+    <div class="text-center"><a href="#personajes" class="btn btn-link flecha-arriba"><i class="bi bi-arrow-down-circle-fill"></i></a></div>
+
+    <div class="section-title py-5" id="personajes">
+      <div class="section-box">
+        <h2>Personajes</h2>
+      </div>
+    </div>
+
+    <div class="row" >
+      <div class="col-md-4 character-box">
+        <img src="./images/max-icon.jpg" alt="Personaje 1" class="character-image">
+        <div class="character-info">
+          <h4 class="text-color">MAX HARDWELL</h4>
+          <p class="text-color">Max es un reconocido cientifico de Nitch city que gracias a sus habilidades de nanotecnologia enfrentara 
+            al virux vertix</p>
+        </div>
+      </div>
+      <div class="col-md-4 character-box">
+        <img src="./images/lily-icon.jpg" alt="Personaje 2" class="character-image">
+        <div class="character-info">
+          <h4 class="text-color">LILY CORTEZ</h4>
+          <p class="text-color">Lily es una estudiante de nanotecnologia que se ve amenazada por el virus Vertix</p>
+        </div>
+      </div>
+      <div class="col-md-4 character-box">
+        <img src="./images/orwell-icon.jpg" alt="Personaje 3" class="character-image">
+        <div class="character-info">
+          <h4 class="text-color">ORWELL HARDWELL</h4>
+          <p class="text-color">Orwell es el hermano de Max y cientifico que quiere utilizar la flor del sol para fines malvados</p>
+        </div>
+      </div>
+      <a href="#creadores" class="btn btn-link text-center flecha-arriba"><i class="bi bi-arrow-down-circle-fill"></i></a>
+    </div>
+  </div>
+
+  <div class="section-title py-5 text-center" id="creadores">
+    <div class="section-box">
+      <h2>Creadores</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 creator-box text-center">
+      <img src="/images/iconoyo.jpg" alt="Creador" class="creator-image">
+      <div class="creator-info">
+        <h4 class="text-color">JUANJO TABARES</h4>
+      </div>
+
+      <div class="flecha-arriba">
+        <a href="#navbar navbar-expand-lg navbar-custom">
+          <i class="bi bi-arrow-up-circle-fill"></i>
+        </a>
+      </div>
+      
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="/images/SFH LOGO.jpg" alt="Logo" class="footer-logo">
+          <span>Mas informacion sobre BOTANIK Y SUNFLOWER HERO AQUI -></span>
+        </div>
+        <div class="col-md-6">
+          <a href="https://www.instagram.com/sfh_proyect/" class="instagram-link" target="_blank">
+            INSTAGRAM DEL PROYECTO
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
